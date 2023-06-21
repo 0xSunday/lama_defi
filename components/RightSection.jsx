@@ -9,7 +9,7 @@ const RightSection = (props) => {
     <div className="flex  flex-col gap-10">
       <div className="flex flex-row gap-2 items-center">
         <img className="" src={props.data.image.small} />
-        <h1 className="text-4xl font-bold capitalize">{props.data.id}</h1>
+        <h1 className="text-4xl font-bold capitalize">{props.data.name}</h1>
       </div>
 
       <div className="flex flex-wrap flex-row justify-around gap-4 ">
