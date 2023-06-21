@@ -1,7 +1,8 @@
 import React from "react";
 import ApiData from "./ApiData";
-import Graph from "./graph";
+
 import Image from "next/image";
+import Graph from "./Graph";
 const RightSection = (props) => {
   // console.log(props.data.market_data.current_price.usd);
   return (
