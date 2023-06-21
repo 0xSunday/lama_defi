@@ -8,5 +8,4 @@ export default function Home() {
   useEffect(() => {
     router.push("/bitcoin");
   }, []);
-  return <h1 className="">hello sunil</h1>;
 }
