@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Sidebar />
-        <div className="ml-72 mt-5 mr-3 bg-black p-2 rounded-lg">
+        <div className="ml-72 mt-5 mr-3 bg-black pt-5 px-5 pb-2 rounded-lg">
           {children}
         </div>
       </body>
